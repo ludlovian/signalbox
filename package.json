@@ -1,6 +1,6 @@
 {
   "name": "@ludlovian/signalbox",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Adds signal sugar to an object",
   "main": "src/index.mjs",
   "exports": {
