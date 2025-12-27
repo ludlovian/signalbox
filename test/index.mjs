@@ -44,4 +44,18 @@ suite('signalbox', () => {
     assert.ok(obj.$foo instanceof Signal)
     assert.ok(!('foo' in obj))
   })
+
+  test('Visible', () => {
+    const obj = {}
+    const ret = signalbox(obj, {
+      foo: 1,
+      _bar: 2,
+      baz: () => obj.foo * 10,
+      _boz: () => obj.foo * 20
+    })
+    assert.strictEqual(ret, obj)
+    const exp = { foo: 1, baz: 10 }
+    const act = { ...obj }
+    assert.deepStrictEqual(act, exp)
+  })
 })
