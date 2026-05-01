@@ -23,7 +23,7 @@
     "url": "https://github.com/ludlovian/signalbox/issues"
   },
   "homepage": "https://github.com/ludlovian/signalbox#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "@preact/signals-core": "^1.14.1"
   }
 }
