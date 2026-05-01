@@ -24,9 +24,6 @@
   },
   "homepage": "https://github.com/ludlovian/signalbox#readme",
   "devDependencies": {
-    "@preact/signals-core": "^1.6.1"
-  },
-  "peerDependencies": {
-    "@preact/signals-core": "^1.6.1"
+    "@preact/signals-core": "^1.14.1"
   }
 }
